@@ -1,5 +1,6 @@
 package backtrace;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -14,7 +15,7 @@ public class Solution51 {
 
     public List<List<String>> solveNQueens(int n) {
         LinkedList<String> selected = new LinkedList<>();
-
+        return new ArrayList<>();
     }
 
     public void backTrace(LinkedList<String> selected, int n) {
@@ -37,7 +38,7 @@ public class Solution51 {
                 return false;
             }
         }
-//        for (int i=0;i<x)
-
+        // TODO
+        return false;
     }
 }

@@ -2,6 +2,8 @@ package bfs;
 
 import common.Node;
 
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
@@ -13,8 +15,8 @@ import java.util.Set;
  **/
 public class bfsDemo {
     public int bfs(Node start, Node target) {
-        Queue<Node> q; // 核心数据结构
-        Set<Node> visited; // 避免走回头路
+        Queue<Node> q = new LinkedList<>(); // 核心数据结构
+        Set<Node> visited = new HashSet<>(); // 避免走回头路
 
         q.offer(start); // 将起点加入队列
         visited.add(start);
@@ -39,5 +41,6 @@ public class bfsDemo {
             /* 划重点：更新步数在这里 */
             step++;
         }
+        return step;
     }
 }
