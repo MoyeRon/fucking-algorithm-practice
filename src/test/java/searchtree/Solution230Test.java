@@ -11,7 +11,7 @@ public class Solution230Test {
 
     @Test
     public void kthSmallestTest() {
-        TreeNode node = TreeNodeUtils.treeGen(new int[]{4, 2, 5, -1, 3});
+        TreeNode node = TreeNodeUtils.treeGen(new String[]{"4", "2", "5", "null", "3"});
         int i = solution230.kthSmallest(node, 1);
         System.out.println(i);
     }
