@@ -7,9 +7,9 @@ package searchtree;
  * @date: 2021/9/20
  **/
 public class Solution96 {
-    
+
 
     public int numTrees(int n) {
-
+        return -1;
     }
 }
