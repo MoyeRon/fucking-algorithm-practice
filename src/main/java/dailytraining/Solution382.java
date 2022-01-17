@@ -4,6 +4,12 @@ import common.ListNode;
 
 import java.util.Random;
 
+/**
+ * @name: 链表随机节点
+ * @link: https://leetcode-cn.com/problems/linked-list-random-node/
+ * @author: taoyouwei
+ * @date: 2022/1/16
+ **/
 public class Solution382 {
 
     ListNode head;

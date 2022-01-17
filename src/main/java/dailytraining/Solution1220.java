@@ -1,6 +1,11 @@
 package dailytraining;
 
-
+/**
+ * @name: 统计元音字母序列的数目
+ * @link: https://leetcode-cn.com/problems/count-vowels-permutation/
+ * @author: taoyouwei
+ * @date: 2022/1/17
+ **/
 public class Solution1220 {
 
 

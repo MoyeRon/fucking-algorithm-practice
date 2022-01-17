@@ -1,6 +1,11 @@
 package dailytraining;
 
-
+/**
+ * @name: 至少是其他数字两倍的最大数
+ * @link: https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others/
+ * @author: taoyouwei
+ * @date: 2022/1/13
+ **/
 public class Solution747 {
     public int dominantIndex(int[] nums) {
         if (nums.length == 1) {

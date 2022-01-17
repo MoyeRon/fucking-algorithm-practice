@@ -5,6 +5,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.PriorityQueue;
 
+/**
+ * @name: 查找和最小的 K 对数字
+ * @link: https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/
+ * @author: taoyouwei
+ * @date: 2022/1/14
+ **/
 public class Solution373 {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         PriorityQueue<int[]> priorityQueue = new PriorityQueue<>(k, (o1, o2) -> {

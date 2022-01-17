@@ -1,5 +1,11 @@
 package dailytraining;
 
+/**
+ * @name: 替换所有的问号
+ * @link: https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
+ * @author: taoyouwei
+ * @date: 2022/1/7
+ **/
 public class Solution1576 {
 
     public String modifyString(String s) {

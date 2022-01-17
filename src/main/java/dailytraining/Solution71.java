@@ -2,6 +2,12 @@ package dailytraining;
 
 import java.util.LinkedList;
 
+/**
+ * @name: 简化路径
+ * @link: https://leetcode-cn.com/problems/simplify-path/
+ * @author: taoyouwei
+ * @date: 2022/1/6
+ **/
 public class Solution71 {
     public String simplifyPath(String path) {
         String[] paths = path.split("/");

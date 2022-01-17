@@ -1,6 +1,11 @@
 package dailytraining;
 
-
+/**
+ * @name: 计算力扣银行的钱
+ * @link: https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/
+ * @author: taoyouwei
+ * @date: 2022/1/15
+ **/
 public class Solution1716 {
     public int totalMoney(int n) {
         if (n < 8) {

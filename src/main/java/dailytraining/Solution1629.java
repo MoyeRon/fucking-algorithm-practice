@@ -5,6 +5,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * @name: 按键持续时间最长的键
+ * @link: https://leetcode-cn.com/problems/gray-code/
+ * @author: taoyouwei
+ * @date: 2022/1/9
+ **/
 public class Solution1629 {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
         Map<Character, Integer> key2Times = new HashMap<>();

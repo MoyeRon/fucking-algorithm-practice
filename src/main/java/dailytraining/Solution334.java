@@ -1,6 +1,11 @@
 package dailytraining;
 
-
+/**
+ * @name: 递增的三元子序列
+ * @link: https://leetcode-cn.com/problems/increasing-triplet-subsequence/
+ * @author: taoyouwei
+ * @date: 2022/1/12
+ **/
 public class Solution334 {
     public boolean increasingTriplet(int[] nums) {
         if (nums.length < 3) {

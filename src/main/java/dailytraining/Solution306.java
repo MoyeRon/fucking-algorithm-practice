@@ -1,5 +1,11 @@
 package dailytraining;
 
+/**
+ * @name: 累加数
+ * @link: https://leetcode-cn.com/problems/additive-number/
+ * @author: taoyouwei
+ * @date: 2022/1/10
+ **/
 public class Solution306 {
     public boolean isAdditiveNumber(String num) {
         int n = num.length();
