@@ -7,7 +7,7 @@ package dailytraining;
  * @date: 2023/4/1
  **/
 public class Solution831 {
-    private static final String[] PHONE_PRE = {"***-***-", "+*-***-***-", "+ **-***-***-", "+***-***-***-"};
+    private static final String[] PHONE_PRE = {"***-***-", "+*-***-***-", "+  **-***-***-", "+***-***-***-"};
 
     public String maskPII(String s) {
         if (s.contains("@")) {
